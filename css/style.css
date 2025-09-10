@@ -1,108 +1,101 @@
-/* Custom Styles for Uno Rules Page */
-
 body {
-    background-color: black;
-    color: white;
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 20px;
-}
-
-main {
-    max-width: 800px;
-    margin: 0 auto;
-    text-align: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: Arial, Verdana, sans-serif;
+    margin: 20px 20px 0 20px;
 }
 
 h1 {
-    font-size: 2em;
-    margin-bottom: 20px;
-    font-weight: bold;
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 30px;
+    color: #0D0D0D;
+}
+
+p {
+    font-size: 24px;
+    padding: 10px 0 0 10px;
 }
 
 img {
+    width: 250px;
+    border: 10px dashed #FFFFFF;
     display: block;
-    margin: 20px auto;
-    border: 3px solid white;
+    margin: 0 auto;
+}
+
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #FFFFFF;
 }
 
 .introduction {
-    background-color: black;
-    border: 3px solid white;
-    border-radius: 10px;
-    padding: 20px;
-    margin: 20px 0;
-    text-align: left;
-    font-size: 1.1em;
-    line-height: 1.4;
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
 }
 
 .red {
-    background-color: red;
-    color: black;
-    padding: 20px;
-    margin: 20px 0;
-    text-align: left;
-}
-
-.red h2 {
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 1.2em;
+    background-color: #FF0000;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
+    border-top: none;
+    border-right: none;
 }
 
 .blue {
-    background-color: blue;
-    color: white;
-    padding: 20px;
-    margin: 20px 0;
+    background-color: #0000FF;
     text-align: left;
+    margin-right: 50px;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+    border-bottom: none;
+    border-left: none;
 }
 
-.blue h2 {
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 1.2em;
+.blue h2,
+.blue p {
+    color: #C4C4C4;
 }
 
 .yellow {
-    background-color: yellow;
-    color: black;
-    padding: 20px;
-    margin: 20px 0;
-    text-align: left;
+    background-color: #FFFF00;
+    text-align: right;
+    margin-left: 50px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
+    border-top: none;
+    border-right: none;
 }
 
-.yellow h2 {
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 1.2em;
+.yellow p {
+    color: #707070;
 }
 
 .green {
-    background-color: green;
-    color: white;
-    padding: 20px;
-    margin: 20px 0;
+    background-color: #008500;
     text-align: left;
-}
-
-.green h2 {
-    font-weight: bold;
-    margin-bottom: 10px;
-    font-size: 1.2em;
+    margin-right: 50px;
+    border-right: 5px solid #FFFFFF;
+    border-top: 2px solid #FFFFFF;
+    border-bottom: none;
+    border-left: none;
 }
 
 footer {
-    background-color: #000080;
-    color: white;
-    text-align: center;
-    padding: 15px;
-    margin-top: 30px;
-    font-size: 0.9em;
+    background: linear-gradient(to right, #000000 0%, #0000FF 25%, #0066FF 70%, #000000 100%);
+    border: 5px solid #FFFFFF;
 }
 
 footer p {
-    margin: 0;
-    line-height: 1.4;
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0;
 }
